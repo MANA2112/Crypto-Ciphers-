@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Enigma</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="enigma.js"></script>
+    
+    </head>
+
+    <body>
+        <h1>Enigma</h1>
+
+        <div>
+            <div>
+                <input id="enigma-input" type="text" placeholder="Input" value="MAMAJUSTKILLEDAMAN">
+            </div>
+
+            <div>
+                <input id="enigma-output" type="text" placeholder="Output" value="DDKGPPVRSUORLFMZDS" readonly>
+            </div>
+        </div>
+
+        
+
+        <div class="settings" id="settings-section">
+            <div class="settings-content">
+                <div class="settings-section">
+                    <h2>Rotors settings</h2>
+
+                    <div class="settings-subsection">
+                        <label>Rotor types</label>
+                        <select class="rotor-type-settings" id="rotor-type-left">
+                            <option value="I" selected>I</option>
+                            <option value="II">II</option>
+                            <option value="III">III</option>
+                            <option value="IV">IV</option>
+                            <option value="V">V</option>
+                        </select>
+
+                        <select class="rotor-type-settings" id="rotor-type-middle">
+                            <option value="I">I</option>
+                            <option value="II" selected>II</option>
+                            <option value="III">III</option>
+                            <option value="IV">IV</option>
+                            <option value="V">V</option>
+                        </select>
+
+                        <select class="rotor-type-settings" id="rotor-type-right">
+                            <option value="I">I</option>
+                            <option value="II">II</option>
+                            <option value="III" selected>III</option>
+                            <option value="IV">IV</option>
+                            <option value="V">V</option>
+                        </select>
+                    </div>
+                  
+            </div>
+
+           
+        </div>
+
+        
+        
+    </body>
+</html>
